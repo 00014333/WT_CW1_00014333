@@ -1,0 +1,319 @@
+body {
+  margin: 0;
+  background-color: #dedede77;
+}
+
+.header {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  background-color: rgb(225, 244, 18);
+  background-color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  height: 5rem;
+}
+
+.header > ul {
+  display: flex;
+  list-style: none;
+  margin-left: 3%;
+  margin-right: 3%;
+  font-size: large;
+  font-weight: bold;
+}
+
+.header > ul > li {
+  margin: 5px;
+  margin-left: 0.4rem;
+  font-family: "Times New Roman", Times, serif;
+  font-size: larger;
+}
+
+.header > ul > li > a {
+  text-decoration: none;
+  color: #304388;
+}
+
+.phone {
+  display: flex;
+  align-items: center;
+  margin-left: 2rem;
+}
+
+.phone p {
+  color: black;
+}
+
+.phone-logo {
+  width: 27px;
+  height: 32px;
+  background-image: url("https://cdn-icons-png.flaticon.com/512/455/455705.png");
+  background-size: contain;
+}
+
+.phone:hover p {
+  color: yellow;
+}
+
+.phone:hover .phone-logo {
+  background-image: url("https://www.pngitem.com/pimgs/m/536-5366226_yellow-phone-icon-png-transparent-png.png");
+  background-size: cover;
+  border-radius: 50%;
+}
+
+.phone > a {
+  text-decoration: none;
+  margin-left: 0.5rem;
+  text-align: center;
+}
+
+.person_info {
+  display: flex;
+  align-items: center;
+  background: linear-gradient(180deg, #ffd900 0%, #ffc000 100%);
+  border-radius: 30px;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.person_info > a {
+  text-decoration: none;
+  margin-left: 0.3rem;
+  color: black;
+}
+
+.payment {
+  display: flex;
+  width: fit-content;
+  height: fit-content;
+  background: linear-gradient(180deg, #28a745 0%, #28a745 100%);
+  border-radius: 30px;
+  padding-left: 1.2rem;
+  padding-right: 1.2rem;
+  padding-top: 0.8rem;
+  padding-bottom: 0.8rem;
+}
+
+.payment > a {
+  align-self: center;
+  text-decoration: none;
+  height: fit-content;
+  color: white;
+}
+
+.payment:hover p {
+  color: black;
+}
+
+.payment > a > p {
+  margin: 0;
+}
+
+div > div {
+  display: flex;
+  margin: 15px;
+}
+
+div > div > a {
+  text-decoration: none;
+  padding-left: 5px;
+  color: black;
+}
+
+.language {
+  align-items: center;
+}
+
+div > a > .logo {
+  vertical-align: middle;
+  border-style: none;
+  padding-left: 4rem;
+}
+
+.section_3 {
+  text-align: center;
+}
+
+.section_3 > p {
+  max-width: 530px;
+  width: 40%;
+  margin: 0;
+  transform: translateX(85%);
+  text-align: center;
+  font-size: 18px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.section_3 > h2 {
+  font-size: 48px;
+}
+
+.arrow {
+  margin: 0;
+  list-style: none;
+  display: flex;
+  width: 90%;
+  justify-content: flex-end;
+  cursor: pointer;
+}
+
+.arrow > li {
+  padding: 12px;
+  color: yellow;
+  margin: 5px;
+}
+
+li.enabled {
+  background-color: rgb(70, 40, 40);
+}
+
+li.disabled {
+  background-color: rgba(70, 40, 40, 0.519);
+}
+
+.scores {
+  list-style: none;
+}
+
+.scores > li {
+  max-width: 122px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.overall {
+  font-size: x-large;
+  display: flex;
+}
+
+.overall > h3 {
+  margin-left: 20px;
+}
+
+.result.visible {
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  width: 45%;
+  border-radius: 23px;
+}
+
+.result.visible > .scores > li {
+  margin: 0;
+}
+
+.result.hidden {
+  visibility: hidden;
+  width: 0;
+}
+
+.scores {
+  margin: 0;
+  padding: 0;
+}
+
+.result.hidden,
+.result.hidden > div,
+.result.hidden > div > img,
+.result.hidden > ul,
+.result.hidden > ul > div > h5,
+.result.hidden > ul > div > h3 {
+  width: 0;
+  margin: 0;
+}
+
+.list-of-results {
+  display: flex;
+  margin-left: 5%;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer {
+  background-color: #188fd4;
+  display: flex;
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  padding-left: 8%;
+}
+
+.list-of-links {
+  margin: 0;
+  list-style: none;
+  display: flex;
+  padding: 0;
+}
+.links > p {
+  margin: 0;
+  padding-top: 3%;
+  font-size: 28px;
+  color: white;
+  font-weight: bold;
+}
+
+.list-of-links > li > a > img {
+  width: 25px;
+  height: 35px;
+}
+
+.list-of-links > li {
+  padding: 3px;
+}
+
+.footer > img {
+  padding-left: 8%;
+}
+
+.list-of-reasons {
+  padding-left: 8%;
+  color: white;
+  list-style: none;
+}
+
+.list-of-reasons > p {
+  margin: 0;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.list-of-reasons > li > a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.list-of-reasons > li {
+  padding-top: 3px;
+}
+
+.contact {
+  margin: 0;
+  list-style: none;
+  color: white;
+  font-weight: bold;
+  padding-left: 8%;
+}
+
+.contact > p {
+  margin: 0;
+  padding-top: 12%;
+  font-size: 30px;
+}
+
+.contact > li > a {
+  color: white;
+  text-decoration: none;
+  font-size: 22px;
+}
+
+.containeer_result {
+  width: 93%;
+  align-items: center;
+  margin: 0;
+}
